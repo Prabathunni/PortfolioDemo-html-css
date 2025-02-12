@@ -1,0 +1,306 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar img{
+  width: 130px;
+}
+
+.main{
+  background-image: url(./images/backgroundimg.jpg);
+  height: 700px;
+  width: 100%;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 50px;
+}
+
+.navbar h2{
+  padding-top: 10px;
+  margin-left: 30px;
+  font-family: "Jura", serif;
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(to right, red, blue, green, orange);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 46px;
+  padding-top: 10px;
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Anton", serif;
+  color: black;
+}
+
+ul li a:hover{
+  color: grey;
+}
+
+
+.bio{
+  width: 600px;
+  height: 300px;
+  font-family: "Jura", serif;
+  padding: 120px;
+  padding-top: 200px;
+
+}
+
+.bio h2{
+  font-family: "Anton", serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: rgb(72, 69, 69);
+  
+}
+
+.bio p{
+  text-align: justify;
+  padding: 8px;
+}
+
+
+.bio span{
+  color: rgb(237, 24, 60);
+  font-size: 25px;
+}
+
+.image{
+  width: 500px;
+  height: 600px;  
+  position: absolute;
+  right: 270px;
+  bottom: 10%;
+  
+}
+
+
+.image img{
+  width: 750px;
+  height: 550px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 3%;
+  box-shadow: 4px 6px 8px grey;
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.image img:hover {
+  transform: scale(0.9);
+}
+
+.sechead{
+  margin-top: 35px;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(230, 222, 222, 0.911);
+  padding-top: 18px;
+  margin-bottom: 5px;
+
+
+}
+
+.h3{
+
+  color: rgb(56, 48, 48);
+  font-family: "Jura", serif;
+  text-align: center;
+
+}
+
+section{
+  background-image: url(./images/backgroundimg.jpg);
+}
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.prj1 img{
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  border-radius: 25%;
+  cursor: pointer;
+
+}
+
+.prj1 img:hover{
+  box-shadow: 2px 4px 6px 8px grey;
+}
+
+.incol{
+  margin-top: 140px; 
+  font-family: "Jura", serif;
+  padding: 10px;
+  
+}
+
+.incol h4{
+  font-family: "Barlow Condensed", serif;
+}
+
+.incol p{
+  text-align: justify;
+}
+
+
+.prj1{
+  margin-top: 10px;
+  width: 660px;
+  height: 300px;
+  display: flex;
+  background-color: rgba(211, 207, 207, 0.105);
+  border-radius: 0.8%;
+  border: 1px solid grey;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 25px;
+
+
+}
+
+
+.prj1:hover{
+  background-position: bottom;
+  transform: scale(1.1);
+  background-color: rgba(193, 160, 160, 0.501);
+
+
+}
+
+.col2 img{
+  width: 300px;
+  height: 190px;
+  margin-left: 70px;
+  border-radius: 2%;
+  cursor: pointer;
+  box-shadow: 2px 4px 6px gray;
+  margin-top: 25px;
+  transition: transform 0.3s ease-in-out;
+
+
+}
+
+.col2 img:hover{
+  transform: scale(1.1);
+}
+
+
+.col2 h5{
+  font-family: "Barlow Condensed", serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
+}
+
+.row2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.col2{
+  background-color: rgba(136, 128, 128, 0.278);
+  width: 470px;
+  height: 400px;
+  text-align: justify;
+  font-family: "Jura", serif;
+  padding: 15px;
+  margin: 10px;
+
+}
+
+.col2:hover{
+  background: linear-gradient(90deg, rgba(178, 104, 104, 0.762) 0%, rgba(254, 254, 47, 0.641) 100%);
+}
+
+
+.awardimage img{
+  width: 600px;
+  height: 350px;
+}
+
+.awardimage{
+  display: flex;
+  height: 500px;
+}
+
+.col3{
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Barlow Condensed", serif;
+
+}
+
+.col3 h5{
+  font-size: 27px;
+}
+
+.c1{
+  margin-left: 230px;
+}
+
+.c1 img{
+  border-radius: 2%;
+  border: 2px double red;
+}
+
+.c2 img{
+  width: 380px;
+  margin-left: 50px;
+}
+
+.row4{
+  background-color: rgb(103, 103, 103);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 250px;
+}
+
+.col4{
+  margin-top: 80px;
+  font-family: "Barlow Condensed", serif;
+  color: rgb(255, 255, 255);
+
+
+}
+
+.col4 h5{
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.col4 p a{
+  text-decoration: none;
+}
+
+.col4 p{
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.col4 span{
+  color: rgb(195, 185, 185);
+}
+
